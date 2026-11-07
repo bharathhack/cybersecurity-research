@@ -24,3 +24,50 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Mobile responsive improvements */
+@media (max-width: 640px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  main section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  main h1 {
+    font-size: clamp(30px, 9vw, 44px);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+
+  main h2 {
+    font-size: clamp(23px, 6vw, 30px);
+    line-height: 1.35;
+  }
+
+  main p {
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0;
+  }
+
+  main canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+  main button,
+  main a {
+    max-width: 100%;
+  }
+}
