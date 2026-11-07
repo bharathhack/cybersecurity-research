@@ -24,7 +24,7 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section id="home" className="max-w-6xl mx-auto px-8 py-32">
+      <section id="home" className="max-w-6xl mx-auto px-5 md:px-8 py-16 md:py-32">
 
         <p className="text-blue-400 text-sm tracking-[0.3em] mb-6">
           CYBERSECURITY RESEARCHER
@@ -95,7 +95,7 @@ export default function Home() {
       
 
       <footer className="text-center text-gray-500 py-8 border-t border-white/10 text-sm">
-        © 2026 Bharath Kumar L. | Built with Next.js
+        © 2026 Bharath Kumar L. All rights reserved.
       </footer>
 
     </main>
